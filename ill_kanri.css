@@ -97,6 +97,7 @@ h2:first-of-type {
 
 h2:last-of-type {
     margin-top: 30px;
+    text-align: center;
 }
 
 /* 森田先生の修正-br→pの変更分のCSSの追加 */
@@ -126,8 +127,7 @@ h2:last-of-type {
 .qa-008 dd {
     margin: 0 0 2.5em;
     padding: 1em 1.5em;
-    background-color: #FFFFEF;
-    /* #d1e5e8 */
+    background-color: #f2f2f2;
     color: #333333;
 
 }
@@ -136,7 +136,6 @@ h2:last-of-type {
     content: "A.";
     color: #D83861;
     font-size: larger;
-
 }
 
 /* ここまで　*/
@@ -147,6 +146,23 @@ h2:last-of-type {
     background-color: #ffc9d7;
     }
 /* ここまで　*/
+
+#option  p {
+    width: auto;
+    max-width: 230px;
+}
+
+#option p:not(:last-of-type) {
+    margin-bottom: 5px;
+}
+
+#option p:nth-of-type(odd):not(:last-of-type) {
+    margin-right: 0.5%;
+}
+
+#option p:nth-of-type(even) {
+    margin-left: 0.5%;
+}
 
 img {
     width: 100%;
@@ -176,6 +192,13 @@ img {
 /* footer */
 footer p {
     margin: 50px;
+    text-align: right;
+    font-size: 14px;
+    /* font-family: 'Mrs Saint Delafield' */
+}
+
+footer p.left {
+    margin: 50px;
     text-align: left;
     font-size: 14px;
     /* font-family: 'Mrs Saint Delafield' */
@@ -197,6 +220,14 @@ footer p {
         background-color: #fcb900;
         border: none;
         border-radius: 50%;
+    }
+
+    #option p:not(:last-of-type) {
+        margin-right: 0.5%;
+    }
+
+    #option p:nth-of-type(even) {
+        margin-left: 0;
     }
 
     #kinen {
