@@ -4,7 +4,6 @@
 * {
     margin: 0;
     padding: 0;
-    background-color: ;
 }
 
 #wrap {
@@ -23,7 +22,7 @@ header {
     font-family: cursive;
 }
 
-p {
+header p {
     display: flex;
     height: auto;
     width: auto;
@@ -56,12 +55,11 @@ ul {
     list-style: none;
 }
 
-a {
+header a {
     display: block;
     text-decoration: none;
     color: black;
 }
-
 
 /* main */
 section {
@@ -101,6 +99,12 @@ h2:last-of-type {
     margin-top: 30px;
 }
 
+/* 森田先生の修正-br→pの変更分のCSSの追加 */
+.ue1 {
+    margin-top: 1em;
+}
+/* ここまで */
+
 /* ここからリスト型のQ&AのCSS*/
 .qa-008 dt {
     margin-bottom: 1em;
@@ -120,7 +124,7 @@ h2:last-of-type {
 .qa-008 dd {
     margin: 0 0 2.5em;
     padding: 1em 1.5em;
-    background-color: #f2f2f2;
+    background-color: #d1e5e8;
     color: #333333;
 
 }
@@ -136,24 +140,7 @@ h2:last-of-type {
 .qa-008 dd:hover {
     background-color: #ffc9d7;
     }
-
-
-#option  p {
-    width: auto;
-    max-width: 230px;
-}
-
-#option p:not(:last-of-type) {
-    margin-bottom: 5px;
-}
-
-#option p:nth-of-type(odd):not(:last-of-type) {
-    margin-right: 0.5%;
-}
-
-#option p:nth-of-type(even) {
-    margin-left: 0.5%;
-}
+/* ここまで　*/
 
 img {
     width: 100%;
@@ -175,10 +162,15 @@ img {
     margin-bottom: 5px;
 }
 
+#info p {
+    width: 30%;
+}
+
+
 /* footer */
 footer p {
     margin: 50px;
-    text-align: right;
+    text-align: left;
     font-size: 14px;
     /* font-family: 'Mrs Saint Delafield' */
 }
@@ -199,14 +191,6 @@ footer p {
         background-color: #fcb900;
         border: none;
         border-radius: 50%;
-    }
-
-    #option p:not(:last-of-type) {
-        margin-right: 0.5%;
-    }
-
-    #option p:nth-of-type(even) {
-        margin-left: 0;
     }
 
     #kinen {
