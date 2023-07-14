@@ -1,184 +1,87 @@
-@charset "UTF-8";
-@import url('https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c');
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <!-- モバイル対応 -->
+        <meta name=” viewport” content=” width=device-width″>
+        <!-- GoogleFonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&display=swap" rel="stylesheet">
+        <!-- Fontawsom ―　CSS よりも前に記述する -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <title>株式会社アイル 賃貸管理部</title>
+        <link href="ill_kanri.css" rel="stylesheet">
+    </head>
+    <body>
+        <div id="wrap">
+            <header>
+                <p><img id="neko" src="logo2.png" height="64" alt="会社ロゴ"><img id="logo" src="logo3.png" height="43" alt="株式会社アイル"></p>
+                <nav>
+                    <button>Menu</button>
+                    <ul>
+                        <li><a href="https://ill-kanrika.github.io/chintaikanri/1-QANDA/" target="_self">Q&A</a></li>
+                        <li><a href="https://ill-kanrika.github.io/chintaikanri/2-ABOUTUS/" target="_self">ABOUT US</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <main>
+                    <!-- ただいま準備中のメッセージ表示 -->
+                    <h2>㈱アイル 賃貸管理課</h2>
+                    <!-- <h２>ただいま公開準備中です。</h２><br><h2>申し訳ありませんが、公開までもうしばらくお待ち下さい。</h2> -->
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+                <!-- スタッフ紹介ページ -->
+                <body>
+                    <p class="group-photo"><img src="./集合写真2023.7管理.jpg" alt="スタッフ紹介"></p>
+                    <section id="option">
+                        <div class="katsusigeko">
+                            <h2 class="heading-lv2 heading-margin text-center">加津　繁子　（係長）</h2>
+                            <figure class="profile-image">
+                                <img src="./S__15630348.jpg" alt="加津繁子　プロフィール画像" width="300" height="300">
+                            </figure>
+                            <h3 class="heading-lv3 heading-margin text-center">資格</h3>
+                            <p class="text text-center">普通自動車運転免許証<br>日商簿記２級</p>
+                            <h3 class="heading-lv3 heading-margin text-center">担当内容</h3>
+                            <p class="text text-center">不動産管理</p>
+                            <h3 class="heading-lv3 heading-margin text-center">趣味</h3>
+                            <p class="text text-center">音楽鑑賞</p>
+                            <h3 class="heading-lv3 heading-margin text-center">自己紹介</h3>
+                            <p class="text text-center">管理物件をより良き物件にするため日々奮闘しています。<br>皆さまのお問い合わせをお待ちしております。</p>                
+                        </div>
 
-#wrap {
-    margin: 0 auto;
-    width: 95%;
-    /* padding: 0px 10px; */
-}
+                        <div class="fujitakurou">
+                            <h2 class="heading-lv2 heading-margin text-center">藤　卓郎（スタッフ）</h2>
+                            <figure class="profile-image">
+                                <img src="./S__15630352.jpg" alt="藤卓郎　プロフィール画像" width="300" height="300">
+                            </figure>
+                            <h3 class="heading-lv3 heading-margin text-center">資格</h3>
+                            <p class="text text-center">宅地宅建取引士<br>日商簿記２級<br>全国暗算検定2級<br>日本漢字能力検定2級</p>
+                            <h3 class="heading-lv3 heading-margin text-center">業務内容</h3>
+                            <p class="text text-center">入居申込み受付<br>空室物件の情報提供<br>空室物件のWEB掲載<br>入居者対応</p>
+                            <h3 class="heading-lv3 heading-margin text-center">趣味</h3>
+                            <p class="text text-center">野球観戦<br>（もちろんホークスです！）<br>ゲーム</p>
+                            <h3 class="heading-lv3 heading-margin text-center">自己紹介</h3>
+                            <p class="text text-center">最新の物件情報、空室情報を余すことなく皆さまへお届けしてまります。<br>弊社取り扱い物件へのお問い合わせお待ちしております！</p>                
+                        </div>
 
-/* header */
-header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    height: 100px;
-    font-family: cursive;
-}
+                        <div class="matsuimegumi">
+                            <h2 class="heading-lv2 heading-margin text-center">松井　恵（スタッフ）</h2>
+                            <figure class="profile-image">
+                                <img src="./S__15630356.jpg" alt="松井恵　プロフィール画像" width="300" height="300">
+                            </figure>
+                            <h3 class="heading-lv3 heading-margin text-center">資格</h3>
+                            <p class="text text-center">宅地宅建取引士<br>証券外務員２種</p>
+                            <h3 class="heading-lv3 heading-margin text-center">業務内容</h3>
+                            <p class="text text-center">賃貸借契約書の作成・審査<br>仲介業者さまご訪問<br>物件の確認・写真撮影</p>
+                            <h3 class="heading-lv3 heading-margin text-center">趣味</h3>
+                            <p class="text text-center">ヨガ、K-POP、猫、旅</p>
+                            <h3 class="heading-lv3 heading-margin text-center">自己紹介</h3>
+                            <p class="text text-center">2023年6月にアイルに入社いたしました！自分ができることを常に考え、みなさまのお力になれるよう頑張っております。<br>これからもよろしくお願いいたします！</p>                
+                        </div>
 
-header p {
-    display: flex;
-    height: auto;
-    width: auto;
-    text-align: left;
-    height: 64px;
-    top:20px;
-}
-
-#logo {
-    height: 43px;
-    position:relative;
-    top: 10px;
-}
-
-h1 {
-    text-indent: 0.5em;
-    font-family: 'M PLUS Rounded 1c', sans-serif;
-}
-
-button {
-    padding: 10px 20px;
-    background-color: #fcb900;
-    border: none;
-    border-radius: 50%;
-    font-family: cursive;
-}
-
-ul {
-    display: none;
-    list-style: none;
-}
-
-a {
-    display: block;
-    text-decoration: none;
-    color: black;
-}
-
-/* main */
-
-.group-photo {
-    margin: auto;
-    padding-bottom: 40px;
-    width: auto;
-    max-width: 500px;
-}
-
-section {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px 30px;/*縦20px、横30pxの指定*/
-}
-
-section h1 {
-    margin-bottom: 20px;
-    width: 100%;
-    text-align: center;
-    font-family: 'M PLUS Rounded 1c', sans-serif;
-    font-size: 100px;
-    background-image: url(2302551_l.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 400px auto;
-    background-color:rgba(255,255,255,0.5);
-    background-blend-mode: lighten;
-}
-
-h2 {
-    margin-bottom: 20px;
-    width: 100%;
-    text-align: left;
-    font-family: 'M PLUS Rounded 1c', sans-serif;
-    font-size: 30px;
-}
-
-h2:first-of-type {
-    text-align: left;
-    border-bottom: #ff6900 5px solid;
-}
-
-#option  p {
-    width: auto;
-    max-width: 230px;
-}
-
-img {
-    width: 100%;
-    /* width: 100%; の場合、親に対しての100％という指示。 */
-    height: 100%;
-    /* width: 100%; height: 100%; の両方を入れると、先に到達するほうが優先される。 */
-    vertical-align: bottom;
-    object-fit: cover;
-    /* 物体の縦横比を変えずにはみ出た部分をカットする。 */
-}
-
-/* ここからプロフィール部分用 */
-
-
-.profile-image {
-    margin: 16px 0 0;
-    text-align: center;
-}
-
-.profile-image img {
-    width: 150px;
-    height: auto;
-    border-radius: 50%;
-}
-
-a:hover {
-    text-decoration: none;
-}
-
-/* ここまで */
-
-/* footer */
-footer p {
-    margin: 50px;
-    text-align: right;
-    font-size: 14px;
-    /* font-family: 'Mrs Saint Delafield' */
-}
-
-/* MediaQuery width 640px以上 */
-@media screen and (min-width:640px) {
-    button {
-        display: none;
-    }
-    ul {
-        display: flex;
-    }
-    li {
-        width: 120px;
-        text-align: center;
-    }
-    li:hover {
-        background-color: #fcb900;
-        border: none;
-        border-radius: 50%;
-    }
-
-    #option p:not(:last-of-type) {
-        margin-right: 0.5%;
-    }
-
-    #option p:nth-of-type(even) {
-        margin-left: 0;
-    }
-
-    #kinen {
-        justify-content: space-around;
-    }
-    #kinen p {
-        max-width: 320px;
-        height: 200px;
-    }
-}
+                    </body>
+            </main>
+            <footer>
+                <p>&copy;&nbsp;2023 株式会社アイル</p>
+            </footer>
+        </div>
+    </body>
+</html>
