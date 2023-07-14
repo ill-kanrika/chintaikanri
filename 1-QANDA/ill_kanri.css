@@ -119,24 +119,23 @@ h2:last-of-type {
 
 .qa-008 dt::before {
     content: "Q.";
-    color: blue;
+    color: #000088;
     font-size: larger;
 }
 
 .qa-008 dd {
     margin: 0 0 2.5em;
     padding: 1em 1.5em;
-    background-color: #FFFFEF;
-    /* #d1e5e8 */
+    background-color:#d1e5e8;
     color: #333333;
 
 }
 
 .qa-008 dd::before {
     content: "A.";
-    color: #D83861;
+    color: #f84364;
     font-size: larger;
-
+    font-weight: bolder;
 }
 
 /* ここまで　*/
