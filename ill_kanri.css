@@ -63,7 +63,7 @@ header a {
     color: black;
 }
 
-/* main */
+/* 共通-main */
 section {
     display: flex;
     flex-wrap: wrap;
@@ -101,13 +101,27 @@ h2:last-of-type {
     margin-top: 30px;
 }
 
+img {
+    width: 100%;
+    /* width: 100%; の場合、親に対しての100％という指示。 */
+    height: 100%;
+    /* width: 100%; height: 100%; の両方を入れると、先に到達するほうが優先される。 */
+    vertical-align: bottom;
+    object-fit: cover;
+    /* 物体の縦横比を変えずにはみ出た部分をカットする。 */
+}
+
+#info p {
+    width: 30%;
+}
+
 /* 森田先生の修正-br→pの変更分のCSSの追加 */
 .ue1 {
     margin-top: 1em;
 }
 /* ここまで */
 
-/* ここからリスト型のQ&AのCSS*/
+/* q&A main リスト型のQ&AのCSS*/
 .qa-008 dt {
     margin-bottom: 1em;
     color: #333333;
@@ -140,39 +154,72 @@ h2:last-of-type {
     font-weight: bolder;
 }
 
-/* ここまで　*/
-
-/* ここから自分で追加したもの */
-
 .qa-008 dd:hover {
     background-color: #ffc9d7;
     }
 /* ここまで　*/
 
-img {
+
+/* aboutus main */
+.group-photo {
+    width: 400px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+section div {
+    width: 280px;
+    margin: 0 auto;
+}
+
+/* プロフィール紹介のCSS */
+.content {
     width: 100%;
-    /* width: 100%; の場合、親に対しての100％という指示。 */
-    height: 100%;
-    /* width: 100%; height: 100%; の両方を入れると、先に到達するほうが優先される。 */
-    vertical-align: bottom;
-    object-fit: cover;
-    /* 物体の縦横比を変えずにはみ出た部分をカットする。 */
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 16px;
+    background-color: #fff;
 }
 
-#kinen p {
-    width: 100%;
-    height: 250px;
-    overflow: hidden;
+.heading-lv2 {
+    font-size: 24px;
 }
 
-#kinen p:not(:last-of-type) {
-    margin-bottom: 5px;
+.heading-lv3 {
+    font-size: 20px;
 }
 
-#info p {
-    width: 30%;
+.heading-margin {
+    margin-top: 32px;
 }
 
+.text {
+    margin: 16px 0 0;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.text-center {
+    text-align: left;
+}
+
+.profile-image {
+    margin: 16px 0 0;
+    text-align: center;
+}
+
+.profile-image img {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+}
+/* ここまで */
 
 /* footer */
 footer p {
@@ -188,8 +235,9 @@ footer p {
         display: none;
     }
     ul {
-        display: flex;
+        flex-direction: row;
     }
+    
     li {
         width: 120px;
         text-align: center;
@@ -207,4 +255,9 @@ footer p {
         max-width: 320px;
         height: 200px;
     }
+
+    section {
+        flex-direction: row;
+    }
+    
 }
