@@ -4,7 +4,6 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 #wrap {
@@ -23,7 +22,7 @@ header {
     font-family: cursive;
 }
 
-header p {
+p {
     display: flex;
     height: auto;
     width: auto;
@@ -62,20 +61,12 @@ a {
     color: black;
 }
 
+
 /* main */
-
-.group-photo {
-    margin: auto;
-    padding-bottom: 40px;
-    width: auto;
-    max-width: 500px;
-}
-
 section {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 20px 30px;/*縦20px、横30pxの指定*/
 }
 
 section h1 {
@@ -105,9 +96,63 @@ h2:first-of-type {
     border-bottom: #ff6900 5px solid;
 }
 
+h2:last-of-type {
+    margin-top: 30px;
+    text-align: center;
+}
+
+/* ここからリスト型のQ&AのCSS*/
+.qa-008 dt {
+    margin-bottom: 1em;
+    color: #333333;
+    font-weight: 600;
+}
+
+.qa-008 dt::before,
+.qa-008 dd::before {
+    margin-right: .4em;
+}
+
+.qa-008 dt::before {
+    content: "Q.";
+}
+
+.qa-008 dd {
+    margin: 0 0 2.5em;
+    padding: 1em 1.5em;
+    background-color: #f2f2f2;
+    color: #333333;
+
+}
+
+.qa-008 dd::before {
+    content: "A.";
+}
+
+/* ここまで　*/
+
+/* ここから自分で追加したもの */
+
+.qa-008 dd:hover {
+    background-color: #ffc9d7;
+    }
+
+
 #option  p {
     width: auto;
     max-width: 230px;
+}
+
+#option p:not(:last-of-type) {
+    margin-bottom: 5px;
+}
+
+#option p:nth-of-type(odd):not(:last-of-type) {
+    margin-right: 0.5%;
+}
+
+#option p:nth-of-type(even) {
+    margin-left: 0.5%;
 }
 
 img {
@@ -120,25 +165,15 @@ img {
     /* 物体の縦横比を変えずにはみ出た部分をカットする。 */
 }
 
-/* ここからプロフィール部分用 */
-
-
-.profile-image {
-    margin: 16px 0 0;
-    text-align: center;
+#kinen p {
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
 }
 
-.profile-image img {
-    width: 150px;
-    height: auto;
-    border-radius: 50%;
+#kinen p:not(:last-of-type) {
+    margin-bottom: 5px;
 }
-
-a:hover {
-    text-decoration: none;
-}
-
-/* ここまで */
 
 /* footer */
 footer p {
