@@ -63,12 +63,7 @@ header a {
     color: black;
 }
 
-/* 各ページ共通 */
-section {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
+/* index.html のCSS */
 
 section h1 {
     margin-bottom: 20px;
@@ -94,7 +89,7 @@ h2 {
     border-bottom: #ff6900 5px solid;
 }
 
-#option h2 {
+#midashi h2 {
     border-bottom: none;
 }
 
@@ -102,6 +97,14 @@ h2:last-of-type {
     margin-top: 30px;
 }
 
+
+/* 森田先生の修正-br→pの変更分のCSSの追加 */
+.ue1 {
+    margin-top: 1em;
+}
+
+
+/* aboutus.html のCSS */
 img {
     width: 100%;
     /* width: 100%; の場合、親に対しての100％という指示。 */
@@ -112,17 +115,8 @@ img {
     /* 物体の縦横比を変えずにはみ出た部分をカットする。 */
 }
 
-#info p {
-    width: 30%;
-}
 
-/* 森田先生の修正-br→pの変更分のCSSの追加 */
-.ue1 {
-    margin-top: 1em;
-}
-
-
-/* q&A main リスト型のQ&AのCSS*/
+/* リスト型のQ&AのCSS*/
 .qa-008 dt {
     margin-bottom: 1em;
     color: #333333;
@@ -247,14 +241,6 @@ footer p {
         background-color: #fcb900;
         border: none;
         border-radius: 50%;
-    }
-
-    #kinen {
-        justify-content: space-around;
-    }
-    #kinen p {
-        max-width: 320px;
-        height: 200px;
     }
 
     section {
