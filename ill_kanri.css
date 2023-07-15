@@ -63,7 +63,7 @@ header a {
     color: black;
 }
 
-/* 共通-main */
+/* 各ページ共通 */
 section {
     display: flex;
     flex-wrap: wrap;
@@ -90,11 +90,12 @@ h2 {
     text-align: left;
     font-family: 'M PLUS Rounded 1c', sans-serif;
     font-size: 30px;
-}
-
-h2:first-of-type {
     text-align: left;
     border-bottom: #ff6900 5px solid;
+}
+
+#option h2 {
+    border-bottom: none;
 }
 
 h2:last-of-type {
@@ -119,7 +120,7 @@ img {
 .ue1 {
     margin-top: 1em;
 }
-/* ここまで */
+
 
 /* q&A main リスト型のQ&AのCSS*/
 .qa-008 dt {
@@ -147,11 +148,10 @@ img {
 
 }
 
-.qa-008 dd::before {
-    content: "A.";
-    color: #f84364;
+.qa-008 dd p:first-of-type::before {
+    content: "A. ";
+    color: #F30100;
     font-size: larger;
-    font-weight: bolder;
 }
 
 .qa-008 dd:hover {
