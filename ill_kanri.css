@@ -243,6 +243,7 @@ footer p {
 
     section {
         flex-direction: row;
+        flex-wrap: wrap;
     }
     
     .group-photo {
