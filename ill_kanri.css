@@ -154,7 +154,7 @@ img {
 /* ここまで　*/
 
 .group-photo {
-    max-width: 80%;
+    max-width: 300px;
     margin: auto;
     margin-bottom: 20px;
 }
