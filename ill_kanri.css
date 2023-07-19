@@ -24,11 +24,16 @@ header {
 
 header p {
     display: flex;
-    height: auto;
+    justify-content: flex-start;
+    line-height: auto;
     width: auto;
-    text-align: left;
     height: 64px;
     top:20px;
+}
+
+header  img {
+    object-fit: contain;
+    width: auto;
 }
 
 #logo {
@@ -154,7 +159,7 @@ img {
 /* ここまで　*/
 
 .group-photo {
-    max-width: 300px;
+    max-width: 80%;
     margin: auto;
     margin-bottom: 20px;
 }
@@ -250,4 +255,3 @@ footer p {
         max-width: 50%;
     }
 }
-
