@@ -159,7 +159,7 @@ img {
 /* ここまで　*/
 
 .group-photo {
-    max-width: 80%;
+    max-width: 100%;
     margin: auto;
     margin-bottom: 20px;
 }
@@ -172,7 +172,7 @@ section {
 }
 
 section div {
-    max-width: 80%;
+    max-width: 100%;
     margin: 0 auto;
 }
 
