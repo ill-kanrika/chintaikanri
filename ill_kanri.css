@@ -172,7 +172,7 @@ section {
 }
 
 section div {
-    width: 280px;
+    width: 400px;
     margin: 0 auto;
 }
 
@@ -255,3 +255,4 @@ footer p {
         max-width: 50%;
     }
 }
+
