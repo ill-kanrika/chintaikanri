@@ -5,7 +5,6 @@
     margin: 0;
     padding: 0;
 }
-
 #wrap {
     margin: 0 auto;
     width: 95%;
@@ -20,56 +19,41 @@ header {
     align-items: center;
     height: 100px;
     font-family: cursive;
-}
-
-header p {
+}header p {
     display: flex;
     justify-content: flex-start;
     line-height: auto;
     width: auto;
     height: 64px;
     top:20px;
-}
-
-header  img {
+}header  img {
     object-fit: contain;
     width: auto;
-}
-
-#logo {
+}#logo {
     height: 43px;
     position:relative;
     top: 10px;
-}
-
-h1 {
+}h1 {
     text-indent: 0.5em;
     font-family: 'M PLUS Rounded 1c', sans-serif;
-}
-
-button {
+}button {
     padding: 10px 20px;
     background-color: #fcb900;
     border: none;
     border-radius: 50%;
     font-family: cursive;
-}
-
-ul {
+}ul {
     display: flex; 
     flex-direction: column;
     gap: 10px;
     list-style: none;
-}
-
-header a {
+}header a {
     display: block;
     text-decoration: none;
     color: black;
 }
 
 /* index.html のCSS */
-
 section h1 {
     margin-bottom: 20px;
     width: 100%;
@@ -82,9 +66,7 @@ section h1 {
     background-size: 400px auto;
     background-color:rgba(255,255,255,0.5);
     background-blend-mode: lighten;
-}
-
-h2 {
+}h2 {
     margin-bottom: 20px;
     width: 100%;
     text-align: left;
@@ -92,22 +74,16 @@ h2 {
     font-size: 30px;
     text-align: left;
     border-bottom: #ff6900 5px solid;
-}
-
-#midashi h2 {
+}#midashi h2 {
     border-bottom: none;
-}
-
-h2:last-of-type {
+}h2:last-of-type {
     margin-top: 30px;
 }
-
 
 /* 森田先生の修正-br→pの変更分のCSSの追加 */
 .ue1 {
     margin-top: 1em;
 }
-
 
 /* aboutus.html のCSS */
 img {
@@ -120,25 +96,21 @@ img {
     /* 物体の縦横比を変えずにはみ出た部分をカットする。 */
 }
 
-
 /* リスト型のQ&AのCSS*/
 .qa-008 dt {
     margin-bottom: 1em;
     color: #333333;
     font-weight: 600;
 }
-
 .qa-008 dt::before,
 .qa-008 dd::before {
     margin-right: .4em;
 }
-
 .qa-008 dt::before {
     content: "Q.";
     color: #000088;
     font-size: larger;
 }
-
 .qa-008 dd {
     margin: 0 0 2.5em;
     padding: 1em 1.5em;
@@ -146,31 +118,27 @@ img {
     color: #333333;
 
 }
-
 .qa-008 dd p:first-of-type::before {
     content: "A. ";
     color: #F30100;
     font-size: larger;
 }
-
 .qa-008 dd:hover {
     background-color: #ffc9d7;
     }
-/* ここまで　*/
+ /* ここまで　*/
 
 .group-photo {
     max-width: 80%;
     margin: auto;
     margin-bottom: 20px;
 }
-
 section {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     gap: 10px;
 }
-
 section div {
     width: 400px;
     margin: 0 auto;
@@ -178,20 +146,20 @@ section div {
 
 /* プロフィール紹介のCSS */
 .heading-lv2 {
-    font-size: 24px;
+    font-size: 30px;
 }
 
 .heading-lv3 {
-    font-size: 20px;
+    font-size: 24px;
 }
 
 .heading-margin {
-    margin-top: 32px;
+    margin-top: 38px;
 }
 
 .text {
     margin: 16px 0 0;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 1.5;
 }
 
@@ -254,5 +222,16 @@ footer p {
     .group-photo {
         max-width: 50%;
     }
+    .heading-lv2 {
+        font-size: 24px;
+    }
+    
+    .heading-lv3 {
+        font-size: 20px;
+    }
+    .text {
+        margin: 16px 0 0;
+        font-size: 16px;
+        line-height: 1.5;
+    }
 }
-
