@@ -10,26 +10,20 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <title>株式会社アイル 賃貸管理部</title>
         <link href="ill_kanri.css" rel="stylesheet">
-        <!-- jQuery.js使用のための本体組み込み -->
-        <!-- <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>></script> -->
-        <!-- インクルードする -->
-        <!-- <script>
-            $(function(){
-                $('main' ).load('.html');
-            });
-        </script> -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script>
+            //headerとfooterの読み込み
+            $(function() {
+                $("#header").load("header.html");
+                $("#footer").load("footer.html");
+            })
+        </script>
     </head>
     <body>
         <div id="wrap">
-            <header>
-                <p><img id="neko" src="./images/logo2.png" height="64" alt="会社ロゴ"><img id="logo" src="./images/logo3.png" height="43" alt="株式会社アイル"></p>
-                <nav>
-                    <ul>
-                        <li><a href="#">Q&A</a></li>
-                        <li><a href="aboutus.html">ABOUT US</a></li>
-                    </ul>
-                </nav>
-            </header>
+            <div id="header">  
+            <!-- ここにheaderを読み込む -->
+            </div>
             <main>
                 <section>
                     <h2>㈱アイル 賃貸管理課</h2>
@@ -106,9 +100,9 @@
                 </section>
 
             </main>
-            <footer>
-                <p>&copy;&nbsp;2023 株式会社アイル</p>
-            </footer>
+            <div id="footer">  
+            <!-- ここにfooterを読み込む -->
+            </div>
         </div>
     </body>
 </html>
