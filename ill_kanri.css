@@ -19,18 +19,19 @@ header {
     align-items: center;
     height: 100px;
     font-family: cursive;
+    padding: 40px 0 20px 0;
 }header p {
     display: flex;
     justify-content: flex-start;
     line-height: auto;
     width: auto;
-    height: 64px;
+    height: 95px;
     top:20px;
-}header  img {
+}header img {
     object-fit: contain;
     width: auto;
 }#logo {
-    height: 43px;
+    height: 64px;
     position:relative;
     top: 10px;
 }h1 {
@@ -51,6 +52,7 @@ header {
     display: block;
     text-decoration: none;
     color: black;
+    font-size: 18px;
 }
 
 /* index.html のCSS */
