@@ -52,13 +52,14 @@ header {
     display: block;
     text-decoration: none;
     color: black;
-    font-size: 18px;
+    font-size: 24px;
 }
 
 /* index.html のCSS */
 section h1 {
     margin-bottom: 20px;
     width: 100%;
+    line-height: 200px;
     text-align: center;
     font-family: 'M PLUS Rounded 1c', sans-serif;
     font-size: 100px;
