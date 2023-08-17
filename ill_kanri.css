@@ -130,22 +130,7 @@ img {
     background-color: #ffc9d7;
     }
 
-/* web-applyの設定 */
-.apply h2 {
-    line-height: 40px;
-    font-size: 24px;
-    padding-bottom: 20px;
-}
-.apply div {
-    text-align: center;
-}
-.apply div img {
-    width: 300px;
-    height: auto;
-} 
-
- /* ここまで　*/
-
+/* プロフィール紹介のCSS */
 .group-photo {
     width: 80%;
     margin: auto;
@@ -161,8 +146,6 @@ section div {
     width: 500PX;
     margin: 0 auto;
 }
-
-/* プロフィール紹介のCSS */
 .heading-lv2 {
     font-size: 40px;
 }
@@ -195,7 +178,20 @@ section div {
     height: auto;
     border-radius: 50%;
 }
-/* ここまで */
+
+/* web-applyの設定 */
+.apply h2 {
+    line-height: 50px;
+    font-size: 36px;
+    padding-bottom: 30px;
+}
+.apply div {
+    text-align: center;
+}
+.apply div img {
+    width: 400px;
+    height: auto;
+} 
 
 /* footer */
 footer p {
