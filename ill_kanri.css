@@ -181,6 +181,20 @@ section div {
 
 /* web-applyの設定 */
 .apply h2 {
+    line-height: 80px;
+    font-size: 48px;
+    padding: 20px 0 70px 0;
+}
+.apply div {
+    text-align: center;
+}
+.apply div img {
+    width: 500px;
+    height: auto;
+    margin-top: 100px;
+} 
+
+/* .apply h2 {
     line-height: 50px;
     font-size: 36px;
     padding-bottom: 30px;
@@ -191,7 +205,7 @@ section div {
 .apply div img {
     width: 400px;
     height: auto;
-} 
+}  */
 
 /* footer */
 footer p {
