@@ -129,6 +129,21 @@ img {
 .qa-008 dd:hover {
     background-color: #ffc9d7;
     }
+
+/* web-applyの設定 */
+.apply h2 {
+    line-height: 40px;
+    font-size: 24px;
+    padding-bottom: 20px;
+}
+.apply div {
+    text-align: center;
+}
+.apply div img {
+    width: 300px;
+    height: auto;
+} 
+
  /* ここまで　*/
 
 .group-photo {
