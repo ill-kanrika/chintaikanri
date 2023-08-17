@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <!-- モバイル対応 -->
+        <meta name=” viewport” content=” width=device-width″>
+        <!-- GoogleFonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&display=swap" rel="stylesheet">
+        <!-- Fontawsom ―　CSS よりも前に記述する -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <title>株式会社アイル 賃貸管理部</title>
+        <link href="ill_kanri.css" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script>
+            //headerとfooterの読み込み
+            $(function() {
+                $("#header").load("header.html");
+                $("#footer").load("footer.html");
+            })
+        </script>
+    </head>
+    <body>
+        <div id="wrap">
+            <div id="header">  
+                <!-- ここにheaderを読み込む -->
+                </div>
+            <main>
+                <!-- ただいま準備中のメッセージ表示 -->
+                <h2>㈱アイル 賃貸管理課</h2>
+                <h2>ただいま準備中です。<br>9月より物件のお申し込み方法が変わります。<br>申し訳ありませんが、詳細の公開までもうしばらくお待ち下さい。</h2>
+                <div><img src="images/logo2.png" alt="猫のイラスト" width="300px" height="100%"></div>
+            </main>
+            <div id="footer">  
+            <!-- ここにfooterを読み込む -->
+            </div>
+        </div>
+    </body>
+</html>
