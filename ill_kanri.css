@@ -207,8 +207,9 @@ section div {
     height: auto;
 }  */
 
+
 /* smart-apply の設定*/
-#deteals {
+/* #deteals {
     display: block;
     /* background-color: #FFFFAA; */
 }
@@ -243,6 +244,7 @@ footer p {
     font-size: 14px;
     /* font-family: 'Mrs Saint Delafield' */
 }
+ */
 
 /* MediaQuery width 600px以上 */
 @media screen and (min-width:600px) {
