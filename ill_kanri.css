@@ -226,13 +226,13 @@ section div {
     margin-top: 10px;
 }
 #how-to p span {
-    /* color: #F30100; */
+    color: #F30100;
     font-weight: bold;
 }
 
 #apply {
     display: block;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
     margin-top: 20px;
 }
 
