@@ -207,6 +207,35 @@ section div {
     height: auto;
 }  */
 
+/* smart-apply の設定*/
+#deteals {
+    display: block;
+    /* background-color: #FFFFAA; */
+}
+#how-to {
+    display: block;
+    /* background-color: #DDFFDD; */
+}
+#how-to h3 {
+    margin-top: 20px;
+}
+#how-to .tell{
+    text-indent: 20px;
+}
+#how-to p:nth-of-type(4) {
+    margin-top: 10px;
+}
+#how-to p span {
+    color: #F30100;
+    font-weight: bold;
+}
+
+#apply {
+    display: block;
+    background-color: aquamarine;
+    margin-top: 20px;
+}
+
 /* footer */
 footer p {
     margin: 50px;
