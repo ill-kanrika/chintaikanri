@@ -209,13 +209,11 @@ section div {
 
 
 /* smart-apply の設定*/
-/* #deteals {
+#deteals {
     display: block;
-    /* background-color: #FFFFAA; */
 }
 #how-to {
     display: block;
-    /* background-color: #DDFFDD; */
 }
 #how-to h3 {
     margin-top: 20px;
@@ -230,10 +228,8 @@ section div {
     color: #F30100;
     font-weight: bold;
 }
-
 #apply {
     display: block;
-    /* background-color: aquamarine; */
     margin-top: 20px;
 }
 
