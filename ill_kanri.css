@@ -226,7 +226,7 @@ section div {
     margin-top: 10px;
 }
 #how-to p span {
-    color: #F30100;
+    /* color: #F30100; */
     font-weight: bold;
 }
 
