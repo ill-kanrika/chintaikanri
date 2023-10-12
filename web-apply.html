@@ -1,65 +1,40 @@
 <!DOCTYPE html>
 <html lang="ja">
-
-<head>
-    <meta charset="UTF-8">
-    <!-- モバイル対応 -->
-    <meta name=” viewport” content=” width=device-width″>
-    <!-- GoogleFonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&display=swap" rel="stylesheet">
-    <!-- Fontawsom ―　CSS よりも前に記述する -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
-        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>株式会社アイル 賃貸管理部</title>
-    <link href="ill_kanri.css" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script>
-        //headerとfooterの読み込み
-        $(function () {
-            $("#header").load("header.html");
-            $("#footer").load("footer.html");
-        })
-    </script>
-</head>
-
-<body>
-    <div id="wrap">
-        <div id="header">
-            <!-- ここにheaderを読み込む -->
-        </div>
-        <main>
-            <h2>㈱アイル 賃貸管理課</h2>
-            <section id="deteals">
-                <p>● 賃貸住宅用については、ATBB[スマート申し込み]よりお申し込みください！</p>
-                <p>● 賃貸事業用については、弊社メールアドレスまでお申し込み書類をお送りください！</p>    
-
-            </section>
-            <section id="how-to">
-                <h3>[ スマート申込の流れについて]</h3>
-                <p>* 参考資料：<a href="https://atbb.athome.jp/manual/smart_moshikomi_kantanmanual_k.pdf"
-                        target="_blank">https://atbb.athome.jp/manual/smart_moshikomi_kantanmanual_k.pdf</a></p>
-                <p><span>at home</span> 不動産会社専用 ATBBサポートセンター</p>
-                <p class="tell">0120-30-3788</p>
-                <p>携帯電話・スマートフォンの方はこちらまで » TEL.045-330-3411</p>
-                <p>営業時間：月〜金 9:00〜19:00 土日祝 9:00〜17:00 ※特定日を除く。</p>
-            </section>
-            <section id="apply">
-                <h3>お申し込みページ【ATBBにログインのうえ物件検索をしてください】</h3>
-                <p>アットホーム会員様入口：<a href="https://atbb.athome.jp/">https://atbb.athome.jp/</a> *ATBBにログインのうえ物件検索をお願いします。
-                </p>
-                <p>アットホーム非会員様入口：<a
-                        href="https://manage-movein.athome.jp/nonmemberrequest/index">https://manage-movein.athome.jp/nonmemberrequest/index</a>
-                </p>
-            </section>
-        </main>
-        <!-- <div><img src="images/logo2.png" alt="猫のイラスト" width="300px" height="100%"></div> -->
-        <div id="footer">
+    <head>
+        <meta charset="UTF-8">
+        <!-- モバイル対応 -->
+        <meta name=” viewport” content=” width=device-width″>
+        <!-- GoogleFonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&display=swap" rel="stylesheet">
+        <!-- Fontawsom ―　CSS よりも前に記述する -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <title>株式会社アイル 賃貸管理部</title>
+        <link href="ill_kanri.css" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script>
+            //headerとfooterの読み込み
+            $(function() {
+                $("#header").load("header.html");
+                $("#footer").load("footer.html");
+            })
+        </script>
+    </head>
+    <body>
+        <div id="wrap">
+            <div id="header">  
+                <!-- ここにheaderを読み込む -->
+                </div>
+            <main>
+                <div class="apply">
+                <!-- ただいま準備中のメッセージ表示 -->
+                    <h2>㈱アイル 賃貸管理課</h2>
+                    <h2>ただいま準備中です。<br>9月より物件のお申し込み方法が変わります。<br>詳細の公開までもうしばらくお待ち下さい。</h2>
+                    <div><img src="images/logo2.png" alt="猫のイラスト" width="300px" height="100%"></div>
+                </div>
+            </main>
+            <div id="footer">  
             <!-- ここにfooterを読み込む -->
+            </div>
         </div>
-    </div>
-</body>
-
+    </body>
 </html>
